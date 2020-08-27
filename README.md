@@ -92,13 +92,12 @@ GitHub profile link:
 Stack Overflow profile link:
 
 ## Question 5 (15 Points. Easy)
-Please fill up [```std::string CPPLib::PrintIntro()```](src/lib/cpplib.cc)
-Write a simple function to prints your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
+Write a simple function [```std::string CPPLib::PrintIntro()```](src/lib/cpplib.cc) to print your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
 We will run your code and see your printout!
 
 
 ## Question 6 (25 Points. Medium):
- Write a program to flatten a 2D vector in C++ into a 1D vector.
+ Write a function [```std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &inputs)```] to flatten a 2D vector into a 1D vector.
 
 Input type: std::vector<std::vector<int>>
 Output type: std::vector<int>

@@ -11,16 +11,17 @@
 class CPPLib {
  public:
   std::string PrintHelloWorld();
-  std::string PrintIntro();
 
+  // Print your self-introduction
+  std::string PrintIntro();
+  
   // Calculates the factorial number
   int CalFactorial(int N);
   
-  // // Finds the max element in a vector
-  // int FindMax(const std::vector<int> &inputs); 
-  
+  // Flatten a 2D vector
+  std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &inputs);
+
   private : 
-  // std::map<int, int> _m;
 };
 
 #endif

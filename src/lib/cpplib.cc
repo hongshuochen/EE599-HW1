@@ -1,31 +1,23 @@
 #include "cpplib.h"
-
 #include "limits"
+
 std::string CPPLib::PrintHelloWorld() { return "**** Hello World ****"; }
 
-std::string CPPLib::PrintIntro() { 
+// Question 5 Print your self-introduction
+std::string CPPLib::PrintIntro() {
+    // Please fill up this function.
     return "Name: \n"; 
 }
 
-// Question 7 Calculates the Nth factorial number
+
+// Question 6 Calculates the factorial number
+std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &inputs) {
+    // Please fill up this function.
+    return ;
+}
+
+// Question 7 Flatten a 2D vector
 int CPPLib::CalFactorial(int N) {
-  if (N == 0) {
-    return 0;
-  }
-
-  if (N == 1) {
-    return 1;
-  }
-
-//   return fib(N - 1) + fib(N - 2);
-// }
-
-// int CPPLib::FindMax(const std::vector<int> &inputs) {
-//   int result = std::numeric_limits<int>::min();
-//   for (auto n : inputs) {
-//     if (n > result) {
-//       result = n;
-//     }
-//   }
-//   return result;
-// }
+    // Please fill up this function.
+    return ;
+}
