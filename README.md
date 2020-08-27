@@ -21,8 +21,7 @@ int FindMax(std::vector<int> &inputs) {
    return result;
 }
 ```
-
-### Answer
+Answer: 
 
 ## Question 2 (20 Points. Medium)
 
