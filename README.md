@@ -118,7 +118,7 @@ We will run your code and see your printout!
 
 ## Question 6 (25 Points. Medium)
 
- Write a function ```std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &inputs)``` in [cpplib.cc](src/lib/cpplib.cc) to flatten a 2D vector into a 1D vector.
+ Write a function ```std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &input)``` in [cpplib.cc](src/lib/cpplib.cc) to flatten a 2D vector into a 1D vector.
 
 Example:\
 Input: inputs = [[1, 2, 3, 4], [5, 6], [7, 8]].\
@@ -128,7 +128,7 @@ Write several tests using GTest for your function in [cpplib_test.cc](tests/cppl
 
 ## Question 7 (30 Points. Medium)
 
-Write a function ```int CalFactorial(int N)``` in [cpplib.cc](src/lib/cpplib.cc) using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in [cpplib_test.cc](tests/cpplib_test.cc) and compute the time complexity of your implementation.
+Write a function ```double CPPLib::CalFactorial(int N)``` in [cpplib.cc](src/lib/cpplib.cc) using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in [cpplib_test.cc](tests/cpplib_test.cc) and compute the time complexity of your implementation.
 
 *Definition of the factorial function*\
 In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:
