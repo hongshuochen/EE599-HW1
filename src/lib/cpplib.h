@@ -11,9 +11,10 @@
 class CPPLib {
  public:
   std::string PrintHelloWorld();
+  std::string PrintIntro();
 
-  // // Calculates the Nth Fibonacci number
-  // int fib(int N);
+  // Calculates the factorial number
+  int CalFactorial(int N);
   
   // // Finds the max element in a vector
   // int FindMax(const std::vector<int> &inputs); 
