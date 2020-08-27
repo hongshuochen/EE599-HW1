@@ -113,22 +113,23 @@ Stack Overflow profile link:
 
 ## Question 5 (15 Points. Easy)
 
-Write a simple function ```std::string CPPLib::PrintIntro()``` in [cpplib.cc](src/lib/cpplib.cc) to print your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
+Write a simple function ```std::string CPPLib::PrintIntro()``` in [tests/q5_student_test.cc](tests/q5_student_test.cc) to print your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
 We will run your code and see your printout!
 
 ## Question 6 (25 Points. Medium)
 
- Write a function ```std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &input)``` in [cpplib.cc](src/lib/cpplib.cc) to flatten a 2D vector into a 1D vector.
+ Write a function ```std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &input)``` in [tests/q6_student_test.cc](tests/q6_student_test.cc) to flatten a 2D vector into a 1D vector.
 
 Example:\
 Input: inputs = [[1, 2, 3, 4], [5, 6], [7, 8]].\
 Output: result = [1, 2, 3, 4, 5, 6, 7, 8].
 
-Write several tests using GTest for your function in [cpplib_test.cc](tests/cpplib_test.cc).
+Write several tests using GTest for your function in [cpplib_test.cc](tests/cpplib_test.cc).\
+(Hint: inculde cases with empty vectors)
 
 ## Question 7 (30 Points. Medium)
 
-Write a function ```double CPPLib::CalFactorial(int N)``` in [cpplib.cc](src/lib/cpplib.cc) using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in [cpplib_test.cc](tests/cpplib_test.cc) and compute the time complexity of your implementation.
+Write a function ```double CPPLib::CalFactorial(int N)``` in [cpplib.cc](src/lib/cpplib.cc) using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in [tests/q7_student_test.cc](tests/q7_student_test.cc) and compute the time complexity of your implementation.
 
 *Definition of the factorial function*\
 In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:
@@ -138,7 +139,7 @@ n ! = n x (n - 1) x (n - 2) x (n - 3) ... (3) x (2) x (1)
 ```
 
 For example, 4! = 4 × 3 × 2 × 1 = 24.\
-The value of 0! is 1.
+The value of 0! is 1. For negative input, please return -1.
 
 Answer:
 

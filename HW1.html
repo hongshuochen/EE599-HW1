@@ -451,22 +451,23 @@ code {
 <p>GitHub profile link:</p>
 <p>Stack Overflow profile link:</p>
 <h2 id="question-5-15-points-easy">Question 5 (15 Points. Easy)</h2>
-<p>Write a simple function <code>std::string CPPLib::PrintIntro()</code> in <a href="src/lib/cpplib.cc">cpplib.cc</a> to print your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
+<p>Write a simple function <code>std::string CPPLib::PrintIntro()</code> in <a href="tests/q5_student_test.cc">tests/q5_student_test.cc</a> to print your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
 We will run your code and see your printout!</p>
 <h2 id="question-6-25-points-medium">Question 6 (25 Points. Medium)</h2>
-<p>Write a function <code>std::vector&lt;int&gt; CPPLib::Flatten2DVector(const std::vector&lt;std::vector&lt;int&gt;&gt; &amp;input)</code> in <a href="src/lib/cpplib.cc">cpplib.cc</a> to flatten a 2D vector into a 1D vector.</p>
+<p>Write a function <code>std::vector&lt;int&gt; CPPLib::Flatten2DVector(const std::vector&lt;std::vector&lt;int&gt;&gt; &amp;input)</code> in <a href="tests/q6_student_test.cc">tests/q6_student_test.cc</a> to flatten a 2D vector into a 1D vector.</p>
 <p>Example:<br>
 Input: inputs = [[1, 2, 3, 4], [5, 6], [7, 8]].<br>
 Output: result = [1, 2, 3, 4, 5, 6, 7, 8].</p>
-<p>Write several tests using GTest for your function in <a href="tests/cpplib_test.cc">cpplib_test.cc</a>.</p>
+<p>Write several tests using GTest for your function in <a href="tests/cpplib_test.cc">cpplib_test.cc</a>.<br>
+(Hint: inculde cases with empty vectors)</p>
 <h2 id="question-7-30-points-medium">Question 7 (30 Points. Medium)</h2>
-<p>Write a function <code>double CPPLib::CalFactorial(int N)</code> in <a href="src/lib/cpplib.cc">cpplib.cc</a> using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in <a href="tests/cpplib_test.cc">cpplib_test.cc</a> and compute the time complexity of your implementation.</p>
+<p>Write a function <code>double CPPLib::CalFactorial(int N)</code> in <a href="src/lib/cpplib.cc">cpplib.cc</a> using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in <a href="tests/q7_student_test.cc">tests/q7_student_test.cc</a> and compute the time complexity of your implementation.</p>
 <p><em>Definition of the factorial function</em><br>
 In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:</p>
 <pre class="hljs"><code><div>n ! = n x (n - 1) x (n - 2) x (n - 3) ... (3) x (2) x (1)
 </div></code></pre>
 <p>For example, 4! = 4 × 3 × 2 × 1 = 24.<br>
-The value of 0! is 1.</p>
+The value of 0! is 1. For negative input, please return -1.</p>
 <p>Answer:</p>
 
 </body>
