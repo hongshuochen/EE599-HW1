@@ -92,7 +92,8 @@ GitHub profile link:
 Stack Overflow profile link:
 
 ## Question 5 (15 Points. Easy)
-Create a new repo of a simple C++ program that prints your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc). You may follow the steps below.
+Please fill up [```std::string CPPLib::PrintIntro()```](src/lib/cpplib.cc)
+Write a simple function to prints your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
 We will run your code and see your printout!
 
 
