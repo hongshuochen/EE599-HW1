@@ -16,11 +16,10 @@ class CPPLib {
   std::string PrintIntro();
   
   // Calculates the factorial number
-  int CalFactorial(int N);
+  double CalFactorial(int N);
   
-  // Flatten a 2D vector
-  std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &inputs);
-
+  // // Flatten a 2D vector
+  std::vector<int> Flatten2DVector(const std::vector<std::vector<int>>&input);
   private : 
 };
 
