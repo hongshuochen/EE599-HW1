@@ -5,25 +5,24 @@ cc_test(
     srcs = glob(["**/*.cc"]),
     deps = [
         "//src/lib:CPPLib",
-        "//src/lib/sort:SortLib",
         "@googletest//:gtest_main",
     ],
 )
 
 cc_test(
-    name = "sort_test",
-    srcs = ["sort_test.cc"],
+    name = "cpplib_test",
+    srcs = ["cpplib_test.cc"],
     deps = [
-        "//src/lib/sort:SortLib",
+        "//src/lib:CPPLib",
         "@googletest//:gtest_main",
     ],
 )
 
 cc_test(
-    name = "search_test",
-    srcs = ["search_test.cc"],
+    name = "grader_test",
+    srcs = ["grader_test.cc"],
     deps = [
-        "//src/lib/search:SearchLib",
+        "//src/lib:CPPLib",
         "@googletest//:gtest_main",
     ],
 )

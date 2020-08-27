@@ -12,13 +12,14 @@ class CPPLib {
  public:
   std::string PrintHelloWorld();
 
-  // Calculates the Nth Fibonacci number
-  int fib(int N);
+  // // Calculates the Nth Fibonacci number
+  // int fib(int N);
   
-  // Finds the max element in a vector
-  int FindMax(const std::vector<int> &inputs); 
+  // // Finds the max element in a vector
+  // int FindMax(const std::vector<int> &inputs); 
   
-  private : std::map<int, int> _m;
+  private : 
+  // std::map<int, int> _m;
 };
 
 #endif
