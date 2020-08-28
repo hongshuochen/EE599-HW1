@@ -371,6 +371,8 @@ code {
 <li>For submission, please push your answers to Github before the deadline.</li>
 <li>Deadline: Friday, September 4th by 6:30 pm</li>
 <li>Total: 120 points. 100 points is considered full credit.</li>
+<li>For non-coding quesitions, you will find <strong>Answers</strong> below each question. Please write your answer there.</li>
+<li>For coding questions, please make sure that you code can run <code>blaze run/test</code>. In this homework, you will need to fill up  the function in <a href="src/lib/cpplib.cc">cpplib.cc</a>, <a href="tests/q5_student_test.cc">q5_student_test.cc</a>, <a href="tests/q6_student_test.cc">q6_student_test.cc</a>, <a href="tests/q7_student_test.cc">q7_student_test.cc</a> for question  5, 6, 7.</li>
 </ul>
 <h2 id="question-1-10-points-medium">Question 1 (10 Points. Medium)</h2>
 <p>Use proof by contradiction to prove that the FindMax function always finds the maximum value in the input vector.</p>
@@ -445,6 +447,7 @@ code {
 <p>Answer:</p>
 <h2 id="question-4-10-points-easy">Question 4 (10 Points. Easy)</h2>
 <p>Create an account on GitHub and Stack Overflow and paste the link to your profile.</p>
+<p>Answer:</p>
 <p>GitHub profile link:</p>
 <p>Stack Overflow profile link:</p>
 <h2 id="question-5-15-points-easy">Question 5 (15 Points. Easy)</h2>
@@ -465,19 +468,19 @@ Output: result = [1, 2, 3, 4, 5, 6, 7, 8].</p>
 </div></code></pre>
 <h2 id="question-7-30-points-medium">Question 7 (30 Points. Medium)</h2>
 <p>Write a function <code>double CPPLib::CalFactorial(int N)</code> in <a href="src/lib/cpplib.cc">cpplib.cc</a> using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in <a href="tests/q7_student_test.cc">tests/q7_student_test.cc</a> and compute the time complexity of your implementation.</p>
-<p>Please create your test cases and run the following command to verify the functionality of your program.</p>
-<pre class="hljs"><code><div>bazel test tests:q7_student_test
-</div></code></pre>
 <p><em>Definition of the factorial function</em><br>
 In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:</p>
 <pre class="hljs"><code><div>n ! = n x (n - 1) x (n - 2) x (n - 3) ... (3) x (2) x (1)
 </div></code></pre>
 <p>For example, 4! = 4 × 3 × 2 × 1 = 24.<br>
 The value of 0! is 1. For negative input, please return -1.</p>
-<p>Answer:</p>
-<p>For question 5, 6, 7, if you want to run all the tests, you could run</p>
+<p>Please create your test cases and run the following command to verify the functionality of your program.</p>
+<pre class="hljs"><code><div>bazel test tests:q7_student_test
+</div></code></pre>
+<p>For question 5, 6, 7, if you want to run all the tests at the same ti,e , you could run</p>
 <pre class="hljs"><code><div>bazel test tests:tests
 </div></code></pre>
+<p>Answer:</p>
 
 </body>
 </html>

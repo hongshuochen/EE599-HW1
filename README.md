@@ -5,6 +5,8 @@
 - For submission, please push your answers to Github before the deadline.
 - Deadline: Friday, September 4th by 6:30 pm
 - Total: 120 points. 100 points is considered full credit.
+- For non-coding quesitions, you will find **Answers** below each question. Please write your answer there.
+- For coding questions, please make sure that you code can run ```blaze run/test```. In this homework, you will need to fill up  [cpplib.cc](src/lib/cpplib.cc), [q5_student_test.cc](tests/q5_student_test.cc), [q6_student_test.cc](tests/q6_student_test.cc), [q7_student_test.cc](tests/q7_student_test.cc)
 
 ## Question 1 (10 Points. Medium)
 
@@ -102,6 +104,8 @@ Answer:
 
 Create an account on GitHub and Stack Overflow and paste the link to your profile.
 
+Answer:
+
 GitHub profile link:
 
 Stack Overflow profile link:
@@ -136,11 +140,6 @@ bazel test tests:q6_student_test
 
 Write a function ```double CPPLib::CalFactorial(int N)``` in [cpplib.cc](src/lib/cpplib.cc) using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in [tests/q7_student_test.cc](tests/q7_student_test.cc) and compute the time complexity of your implementation.
 
-Please create your test cases and run the following command to verify the functionality of your program.
-```
-bazel test tests:q7_student_test
-```
-
 *Definition of the factorial function*\
 In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:
 
@@ -151,9 +150,15 @@ n ! = n x (n - 1) x (n - 2) x (n - 3) ... (3) x (2) x (1)
 For example, 4! = 4 × 3 × 2 × 1 = 24.\
 The value of 0! is 1. For negative input, please return -1.
 
-Answer:
+Please create your test cases and run the following command to verify the functionality of your program.
+```
+bazel test tests:q7_student_test
+```
 
-For question 5, 6, 7, if you want to run all the tests, you could run
+For question 5, 6, 7, if you want to run all the tests at the same ti,e , you could run
 ```
 bazel test tests:tests
 ```
+
+Answer:
+
