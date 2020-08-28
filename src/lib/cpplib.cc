@@ -10,14 +10,14 @@ std::string CPPLib::PrintIntro() {
 }
 
 
-// Question 6 Calculates the factorial number
+// Question 6  Flatten a 2D vector
 std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &input) {
     // Please fill up this function.
     std::vector<int> res = {};
     return res;
 }
 
-// Question 7 Flatten a 2D vector
+// Question 7 Calculate the factorial number
 double CPPLib::CalFactorial(int N) {
     // Please fill up this function.
     return 0;
