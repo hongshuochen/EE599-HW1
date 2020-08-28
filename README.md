@@ -1,7 +1,7 @@
 
 # HW1 EE599 - Computing Principles for Electrical Engineers
 
-- Plesae clone the repository, edit [README.md](README.md) to answer the questions, and fill up functions to finish the homework.
+- Plesae clone the repository, edit [README.md](README.md) to answer the questions, and fill up functions to finish the hw.
 - For non-coding quesitions, you will find **Answer** below each question. Please write your answer there.
 - For coding questions, please make sure that your code can run ```blaze run/test```. In this homework, you will need to fill up [cpplib.cc](src/lib/cpplib.cc), [q5_student_test.cc](tests/q5_student_test.cc), [q6_student_test.cc](tests/q6_student_test.cc), [q7_student_test.cc](tests/q7_student_test.cc) for question  5, 6, 7.
 - For submission, please push your answers to Github before the deadline.
