@@ -5,8 +5,8 @@
 - For submission, please push your answers to Github before the deadline.
 - Deadline: Friday, September 4th by 6:30 pm
 - Total: 120 points. 100 points is considered full credit.
-- For non-coding quesitions, you will find **Answers** below each question. Please write your answer there.
-- For coding questions, please make sure that you code can run ```blaze run/test```. In this homework, you will need to fill up  [cpplib.cc](src/lib/cpplib.cc), [q5_student_test.cc](tests/q5_student_test.cc), [q6_student_test.cc](tests/q6_student_test.cc), [q7_student_test.cc](tests/q7_student_test.cc)
+- For non-coding quesitions, you will find **Answer** below each question. Please write your answer there.
+- For coding questions, please make sure that you code can run ```blaze run/test```. In this homework, you will need to fill up  the function in [cpplib.cc](src/lib/cpplib.cc), [q5_student_test.cc](tests/q5_student_test.cc), [q6_student_test.cc](tests/q6_student_test.cc), [q7_student_test.cc](tests/q7_student_test.cc) for question  5, 6, 7.
 
 ## Question 1 (10 Points. Medium)
 
