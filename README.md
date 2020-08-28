@@ -49,7 +49,7 @@ Answer:
 
 ```cpp
 void Example2(int a = 0, int n) {
-   int i;
+   int i = n;
    while (i > 0) {
        a += i;
        i /= 2;
