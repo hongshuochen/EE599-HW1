@@ -1,15 +1,10 @@
 
 # HW1 EE599 - Computing Principles for Electrical Engineers
 
-- Plesae edit the [README.md](README.md) to answer all the questions, and fill up the function in src to finish the homework.
+- Plesae clone this repository, edit the [README.md](README.md) to answer all the questions, and fill up functions in src to finish the homework.
 - For submission, please push your answers to Github before the deadline.
 - Deadline: Friday, September 4th by 6:30 pm
 - Total: 120 points. 100 points is considered full credit.
-- For coding quesitons, Please run the following command to check the functionality of your program.
-
-```
-bazel test tests:grader_test
-```
 
 ## Question 1 (10 Points. Medium)
 
@@ -116,20 +111,36 @@ Stack Overflow profile link:
 Write a simple function ```std::string CPPLib::PrintIntro()``` in [tests/q5_student_test.cc](tests/q5_student_test.cc) to print your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
 We will run your code and see your printout!
 
+Please run the following command to test this question.
+```
+bazel test tests:q5_student_test
+```
+
 ## Question 6 (25 Points. Medium)
 
- Write a function ```std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &input)``` in [tests/q6_student_test.cc](tests/q6_student_test.cc) to flatten a 2D vector into a 1D vector.
+ Write a function ```std::vector<int> CPPLib::Flatten2DVector(const std::vector<std::vector<int>> &input)``` in [cpplib.cc](src/lib/cpplib.cc) to flatten a 2D vector into a 1D vector.
 
 Example:\
 Input: inputs = [[1, 2, 3, 4], [5, 6], [7, 8]].\
 Output: result = [1, 2, 3, 4, 5, 6, 7, 8].
 
-Write several tests using GTest for your function in [cpplib_test.cc](tests/cpplib_test.cc).\
+Write several tests using GTest for your function in [tests/q6_student_test.cc](tests/q6_student_test.cc.\
 (Hint: inculde cases with empty vectors)
+
+Please run the following command to test this question.
+
+```
+bazel test tests:q6_student_test
+```
 
 ## Question 7 (30 Points. Medium)
 
 Write a function ```double CPPLib::CalFactorial(int N)``` in [cpplib.cc](src/lib/cpplib.cc) using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in [tests/q7_student_test.cc](tests/q7_student_test.cc) and compute the time complexity of your implementation.
+
+Please run the following command to test this question.
+```
+bazel test tests:q7_student_test
+```
 
 *Definition of the factorial function*\
 In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:
@@ -143,3 +154,7 @@ The value of 0! is 1. For negative input, please return -1.
 
 Answer:
 
+If you want to run all the tests, you could run
+```
+bazel test tests:tests
+```

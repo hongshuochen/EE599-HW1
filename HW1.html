@@ -367,14 +367,11 @@ code {
   </script>
 <h1 id="hw1-ee599---computing-principles-for-electrical-engineers">HW1 EE599 - Computing Principles for Electrical Engineers</h1>
 <ul>
-<li>Plesae edit the <a href="README.md">README.md</a> to answer all the questions, and fill up the function in src to finish the homework.</li>
+<li>Plesae clone this repository, edit the <a href="README.md">README.md</a> to answer all the questions, and fill up functions in src to finish the homework.</li>
 <li>For submission, please push your answers to Github before the deadline.</li>
 <li>Deadline: Friday, September 4th by 6:30 pm</li>
 <li>Total: 120 points. 100 points is considered full credit.</li>
-<li>For coding quesitons, Please run the following command to check the functionality of your program.</li>
 </ul>
-<pre class="hljs"><code><div>bazel test tests:grader_test
-</div></code></pre>
 <h2 id="question-1-10-points-medium">Question 1 (10 Points. Medium)</h2>
 <p>Use proof by contradiction to prove that the FindMax function always finds the maximum value in the input vector.</p>
 <pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">FindMax</span><span class="hljs-params">(<span class="hljs-built_in">std</span>::<span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; &amp;inputs)</span> </span>{
@@ -453,15 +450,24 @@ code {
 <h2 id="question-5-15-points-easy">Question 5 (15 Points. Easy)</h2>
 <p>Write a simple function <code>std::string CPPLib::PrintIntro()</code> in <a href="tests/q5_student_test.cc">tests/q5_student_test.cc</a> to print your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc).
 We will run your code and see your printout!</p>
+<p>Please run the following command to test this question.</p>
+<pre class="hljs"><code><div>bazel test tests:q5_student_test
+</div></code></pre>
 <h2 id="question-6-25-points-medium">Question 6 (25 Points. Medium)</h2>
-<p>Write a function <code>std::vector&lt;int&gt; CPPLib::Flatten2DVector(const std::vector&lt;std::vector&lt;int&gt;&gt; &amp;input)</code> in <a href="tests/q6_student_test.cc">tests/q6_student_test.cc</a> to flatten a 2D vector into a 1D vector.</p>
+<p>Write a function <code>std::vector&lt;int&gt; CPPLib::Flatten2DVector(const std::vector&lt;std::vector&lt;int&gt;&gt; &amp;input)</code> in <a href="src/lib/cpplib.cc">cpplib.cc</a> to flatten a 2D vector into a 1D vector.</p>
 <p>Example:<br>
 Input: inputs = [[1, 2, 3, 4], [5, 6], [7, 8]].<br>
 Output: result = [1, 2, 3, 4, 5, 6, 7, 8].</p>
-<p>Write several tests using GTest for your function in <a href="tests/cpplib_test.cc">cpplib_test.cc</a>.<br>
+<p>Write several tests using GTest for your function in [tests/q6_student_test.cc](tests/q6_student_test.cc.<br>
 (Hint: inculde cases with empty vectors)</p>
+<p>Please run the following command to test this question.</p>
+<pre class="hljs"><code><div>bazel test tests:q6_student_test
+</div></code></pre>
 <h2 id="question-7-30-points-medium">Question 7 (30 Points. Medium)</h2>
 <p>Write a function <code>double CPPLib::CalFactorial(int N)</code> in <a href="src/lib/cpplib.cc">cpplib.cc</a> using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in <a href="tests/q7_student_test.cc">tests/q7_student_test.cc</a> and compute the time complexity of your implementation.</p>
+<p>Please run the following command to test this question.</p>
+<pre class="hljs"><code><div>bazel test tests:q7_student_test
+</div></code></pre>
 <p><em>Definition of the factorial function</em><br>
 In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:</p>
 <pre class="hljs"><code><div>n ! = n x (n - 1) x (n - 2) x (n - 3) ... (3) x (2) x (1)
@@ -469,6 +475,9 @@ In mathematics, the factorial of a positive integer n, denoted by n!, is the pro
 <p>For example, 4! = 4 × 3 × 2 × 1 = 24.<br>
 The value of 0! is 1. For negative input, please return -1.</p>
 <p>Answer:</p>
+<p>If you want to run all the tests, you could run</p>
+<pre class="hljs"><code><div>bazel test tests:tests
+</div></code></pre>
 
 </body>
 </html>
