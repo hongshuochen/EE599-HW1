@@ -124,7 +124,7 @@ Example:\
 Input: inputs = [[1, 2, 3, 4], [5, 6], [7, 8]].\
 Output: result = [1, 2, 3, 4, 5, 6, 7, 8].
 
-Write several tests using GTest for your function in [tests/q6_student_test.cc](tests/q6_student_test.cc.\
+Write several tests using GTest for your function in [tests/q6_student_test.cc](tests/q6_student_test.cc).\
 (Hint: inculde cases with empty vectors)
 
 Please create your test cases and run the following command to verify the functionality of your program.
