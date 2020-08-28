@@ -111,7 +111,7 @@ Stack Overflow profile link:
 Write a simple function ```std::string CPPLib::PrintIntro()``` in [cpplib.cc](src/lib/cpplib.cc) to print your name, email, and any information about you that you want (e.g. your major, your expertise, your interests, etc) and write a test using GTest for your finction in [tests/q5_student_test.cc](tests/q5_student_test.cc).
 We will run your code and see your printout!
 
-Please run the following command to test this question.
+Please create your test cases and run the following command to verify the functionality of your program.
 ```
 bazel test tests:q5_student_test
 ```
@@ -127,8 +127,7 @@ Output: result = [1, 2, 3, 4, 5, 6, 7, 8].
 Write several tests using GTest for your function in [tests/q6_student_test.cc](tests/q6_student_test.cc.\
 (Hint: inculde cases with empty vectors)
 
-Please run the following command to test this question.
-
+Please create your test cases and run the following command to verify the functionality of your program.
 ```
 bazel test tests:q6_student_test
 ```
@@ -137,7 +136,7 @@ bazel test tests:q6_student_test
 
 Write a function ```double CPPLib::CalFactorial(int N)``` in [cpplib.cc](src/lib/cpplib.cc) using recursion to find the factorial of any number. Your function should accept positive numbers and return the factorial value. Further, write several tests using GTest for your function in [tests/q7_student_test.cc](tests/q7_student_test.cc) and compute the time complexity of your implementation.
 
-Please run the following command to test this question.
+Please create your test cases and run the following command to verify the functionality of your program.
 ```
 bazel test tests:q7_student_test
 ```
