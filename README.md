@@ -153,7 +153,7 @@ The value of 0! is 1. For negative input, please return -1.
 
 Answer:
 
-If you want to run all the tests, you could run
+For question 5, 6, 7, if you want to run all the tests, you could run
 ```
 bazel test tests:tests
 ```
